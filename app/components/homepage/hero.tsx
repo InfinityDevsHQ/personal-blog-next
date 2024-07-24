@@ -46,7 +46,9 @@ export default function Hero() {
           <div>
             <form className="flex items-center flex-col sm:flex-row gap-3">
               <input
+                name="email"
                 type="email"
+                autoComplete="off"
                 placeholder="Email"
                 className="flex-grow  px-4 py-2 md:px-6 md:py-4 border border-gray-300 bg-background2 rounded-lg focus:outline-none focus:ring-1 focus:ring-primary"
               />

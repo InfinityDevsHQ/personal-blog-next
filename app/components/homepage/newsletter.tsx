@@ -7,6 +7,8 @@ export default function Newsletter() {
       <div className="max-w-6xl mx-auto flex flex-col gap-2 md:flex-row items-center space-y-4 md:space-y-0 px-4">
         <input
           type="email"
+          name="email"
+          autoComplete="off"
           placeholder="Email"
           className="w-full md:w-3/4 px-4 py-2 md:px-6 md:py-4 rounded-md text-black"
         />
