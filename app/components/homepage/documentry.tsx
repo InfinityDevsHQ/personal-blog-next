@@ -36,7 +36,7 @@ export default function Documentaries() {
               </p>
               <p className="text-gray-500 text-sm">Dec 08, 2023</p>
             </div>
-            <span className="w-40 mt-3 md:mt-6">
+            <span className="w-44 mt-3 md:mt-6">
               <Button>
                 FULL STORY
                 <ChevronRight />
