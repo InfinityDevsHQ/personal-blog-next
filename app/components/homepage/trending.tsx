@@ -15,13 +15,13 @@ const sideArticles = [
 
 export default function Trending() {
   return (
-    <section className="bg-backgroundPrimary text-primary">
-      <div className="max-w-7xl mx-auto px-4 py-14">
+    <section className="text-primary">
+      <div className="px-4 md:px-0 mx-auto">
         <Heading>
           It&apos;s Hot
           <HotSvg />
         </Heading>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8  mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8 lg:gap-12 bg-backgroundPrimary p-4 md:p-8 lg:p-12">
           {/* Main article */}
           <div className="md:col-span-2 hover:cursor-pointer">
             <Image
@@ -37,7 +37,7 @@ export default function Trending() {
             <h2 className="text-2xl md:text-4xl font-bold mb-2">
               What is Difference Between UI & UX Design
             </h2>
-            <p className="text-gray-600 text-sm">
+            <p className="text-paragraph text-xs">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
               aliquam duis vulputate dui vel ligula. Amet urna amet dapibus
               lorem non consectetur nec risus mauris. Quis at in condimentum
@@ -55,7 +55,7 @@ export default function Trending() {
                   height={1080}
                   src={article.image}
                   alt="Blue vintage car"
-                  className="w-full lg:w-5/6 h-40 lg:h-48 object-cover mb-2"
+                  className="w-full h-40 lg:h-full lg:w-full  object-cover mb-2"
                 />
                 <div className="bg-black text-white inline-block px-2 py-1 mb-2">
                   INSPIRE
@@ -63,7 +63,7 @@ export default function Trending() {
                 <h3 className="text-2xl md:text-xl font-bold mb-1">
                   What is Difference Between UI & UX Design
                 </h3>
-                <p className="text-sm text-gray-500">Dec 08, 2023</p>
+                <p className="text-xs text-paragraph">Dec 08, 2023</p>
               </div>
             ))}
           </div>

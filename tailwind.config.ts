@@ -12,6 +12,10 @@ const config: Config = {
         primary: "#0F172A",
         backgroundPrimary: "#F1F5F9",
         background2: "#E2E8F0",
+        paragraph: "#334155",
+      },
+      fontFamily: {
+        inter: ["Inter", "sans-serif"],
       },
     },
   },

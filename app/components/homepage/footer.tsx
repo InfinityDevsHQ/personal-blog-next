@@ -1,4 +1,5 @@
 import Link from "next/link";
+
 import BeSvg from "../svg/icons/be-svg";
 import ChevronRight from "../svg/icons/chevron-right";
 import FacebookSvg from "../svg/icons/facebook-svg";
@@ -26,11 +27,9 @@ const SocialIcons = [
 const Footer = () => {
   return (
     <footer>
-      {/* Subscription Section */}
-
       {/* Links Section */}
-      <div className="bg-background2 text-black py-16">
-        <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 md:gap-4  justify-items-start items-start space-y-4 md:space-y-0 px-4">
+      <div className="bg-background2 text-black px-4 py-12 md:p-12">
+        <div className="mx-auto grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 lg:gap-12 items-center space-y-4 md:space-y-0 px-4">
           <div className="order-1">
             <NavLogo />
           </div>

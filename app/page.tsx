@@ -4,6 +4,7 @@ import Trending from "./components/homepage/trending";
 import BlogGrid from "./components/homepage/blogGrid";
 import Documentaries from "./components/homepage/documentry";
 import Newsletter from "./components/homepage/newsletter";
+import BlogGrid2 from "./components/homepage/blogGrid2";
 
 export default function App() {
   return (
@@ -13,7 +14,7 @@ export default function App() {
       <Trending />
       <BlogGrid />
       <Documentaries />
-      <BlogGrid />
+      <BlogGrid2 />
       <Newsletter />
     </>
   );
